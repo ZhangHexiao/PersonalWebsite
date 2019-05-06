@@ -1,0 +1,878 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam|Merriweather|PT+Serif|Playfair+Display|Song+Myung');
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+@import url('https://fonts.googleapis.com/css?family=Song+Myung');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+section {
+  /* min-height: 100%; */
+  height: auto;
+  position:relative;
+}
+
+ul {
+  z-index: 999;
+  font-size: 2.0vw;
+  width:100%;
+  position:absolute;
+  bottom:10%;
+}
+
+ul a:link {
+  padding: 10px 40px;
+  color:#fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul a:visited {
+  color:#999;
+}
+
+ul a:hover {
+  color:#fff;
+}
+
+
+h1 {
+  font-family: 'Concert One', cursive;
+  font-size: 6.5vw;
+  font-weight: 7.0vw;
+  line-height: 3.5vw;
+  text-align: center;
+  margin-bottom: 50px;
+  color:white;
+  animation: slider 4s;
+}
+@keyframes slider {
+	from {opacity:0; top:500px;}
+	to {opacity:1; top:50%;}
+}
+
+
+h2#subtitle1, h2#subtitle2,h2#subtitle3,h2#subtitle4{
+    font-family: 'PT Serif', serif;
+    font-size: 2.5vw;
+    font-weight: 7.0vw;
+    line-height: 3.5vw;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    color:black;
+    background: #F2F8F9;
+}
+
+h2#subtitle3{
+    background: white;
+}
+
+h2#subtitle4{
+    color:white;
+    background: #1C1F1D;
+}
+
+
+p#l1{
+    padding:10%;
+    font-size: 2vw;
+    text-align: center;
+    color:white;
+    font-family: 'Merriweather', serif;
+}
+p#l2{
+    padding:10%;
+    font-size: 1.5vw;
+    text-align: center;
+    color:white;
+    font-family: 'Merriweather', serif;
+}
+
+p#l12{
+    padding:5%;
+    font-size: 1.8vw;
+    text-align: center;
+    color:white;
+    font-family: 'Merriweather', serif;
+}
+
+
+section#title {
+  background: url(../images/bg1.jpg) fixed no-repeat center center;
+  background-size: cover;
+  height:100%;
+}
+
+section#title2 {
+  background: url(../images/bg1.jpg) fixed no-repeat center center;
+  background-size: cover;
+  height:40%;
+}
+
+div#knowme {
+	width:100%;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+    align-items: center;
+    background: #F2F8F9;
+    padding:0 10% 0 10%;
+}
+
+section#selfintroduction p{
+    font-family: 'Kalam', cursive;
+    font-size: 1.8vw;
+    line-height: 2.4vw;
+    text-align: center;
+/*     padding-bottom: 50px;
+padding-top: 80px; */
+    color:black;
+
+}
+
+section#selfphont {
+    background: url(../images/standardphoto.jpeg) no-repeat center center;
+    background-size: cover;
+    width:300px;
+    height: 350px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+section#selfintroduction {
+	width:600px;
+	height: 260px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+    margin:10px;
+}
+
+section#selfintroduction article{
+    position: relative;
+}
+
+.educationlist {
+	width:100%;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+    align-items: center;
+    background: #F2F8F9;
+    padding:0 12% 0 12%;
+}
+
+.educationlist article{
+/*     display: flex; */
+/*     position: relative;
+top:20%;
+left:10%; */
+}
+
+.universitypic{
+	width:300px;
+    height: 260px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.universityexp{
+	width:500px;
+	height: 260px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+    margin:10px;
+}
+
+section#tongjipic {
+    background: url(../images/tongjipic.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+
+section#polypic {
+    background: url(../images/polyupic.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+section#mcgillpic {
+    background: url(../images/mcgillpic.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.universitypic{
+	width:280px;
+    height: 250px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.universityexp{
+	width:500px;
+	height: 260px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+    margin:10px;
+}
+
+section#tongjipic {
+    background: url(../images/tongjipic.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+
+section#polypic {
+    background: url(../images/polyupic.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+section#mcgillpic {
+    background: url(../images/mcgillpic.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+.done {
+	width:100%;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+    align-items: center;
+    padding:0 15% 0 15%;
+}
+
+.done article{
+/*     display: flex; */
+    position: relative;
+/*     top:20%;
+left:10%; */
+}
+
+.donepic{
+	width:350px;
+    height: 250px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+section#laserpic {
+    background: url(../images/research4.png) no-repeat center center;
+    background-size: cover;
+}
+
+
+section#koreapic {
+    background: url(../images/research5.png) no-repeat center center;
+    background-size: cover;
+}
+
+section#isrealpic {
+    background: url(../images/israel.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+section#comppic {
+    background: url(../images/web.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.doneexp{
+	width:500px;
+	height: 260px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+    /* margin:10px; */
+}
+
+.school {
+  font-family: 'Merriweather', serif;
+  font-size: 1.7vw;
+  font-weight: 7.0vw;
+  line-height: 2.5vw;
+  /* text-align: center; */
+  margin-bottom: 15px;
+  color:#050985;
+}
+
+.time {
+  font-family: 'Song Myung', serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 1.6vw;
+  /* text-align: center; */
+  margin-bottom: 15px;
+  color:#045215;
+}
+
+.location{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3vw;
+  font-weight: 600;
+  line-height: 0vw;
+  /* text-align: center; */
+  margin-bottom: 15px;
+  color:#2D322E;
+}
+
+.description{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3vw;
+  /* font-weight: 600;
+  line-height: 0vw; */
+  /* text-align: center; */
+  margin-top: 30px;
+  color:#2D322E;
+}
+
+
+section#contact {
+  width:100%;
+  min-height: 70%;
+  height: auto;
+  background: #1C1F1D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+form {
+  width:40%;
+  min-width:360px;
+}
+
+input[type=text], input[type=email] {
+    width:100%;
+    padding: 8px 6px 2px;
+    /* margin: 6px 0 20px; */
+    display: block;
+	border:none;
+    border-bottom: 1px dotted #000;
+/*    border-radius: 4px;*/
+    font-size:1.5vw;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    color:#000;
+    background: #eee;
+    transition:all .1s;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+    width: 120%;
+    background: #eee;
+    color:#f00;
+	outline: none;
+	border-bottom: 1px dotted #f00;
+}
+
+input[type=submit], input[type=reset] {
+    display: inline-block;
+    width: 150px;
+    background-color:#EAF769;
+    color: white;
+    /* padding: 14px 20px; */
+    margin: 5px 5px 5px 0;
+	outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:1.5vw;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    transition:all .3s;
+    color:#1B1C19;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color:#333;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding: 8px 8px;
+	margin: 6px 0 20px;
+    border-radius: 4px;
+	border: none;
+    border-bottom: 1px dotted #000;
+    background-color: #fff;
+    font-size:1.2vw;
+    resize: none;
+    color:#333;
+	transition:all .3s;
+}
+textarea:focus {
+    background: #333;
+    color:#fff;
+	  outline: none;
+	  border-bottom: 1px dotted #f00;
+}
+
+label {
+    font-family: 'Passion One', cursive;
+    font-size: 1.8vw;
+	font-weight: 700;
+}
+
+.universitypic:hover {
+	background: orange;
+	box-shadow:0 5px 8px red,5px 0 8px yellow;
+    background-size:cover;
+}
+
+.donepic:hover {
+	background: orange;
+	box-shadow:0 5px 8px red,5px 0 8px yellow;
+    background-size:cover;
+}
+
+
+
+div#research {
+    background: url(../images/bg8.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+
+section#research figure img {
+   width:100%;
+ }
+
+ section#research1 h2 {
+   padding-top:25px;
+   font-size: 4.5vw;
+   line-height: 3.5vw;
+   border-bottom: #555 solid 1px;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+ }
+
+section#research1 {
+  display: flex;
+  /* padding: 20px; */
+}
+
+ section#research1 article {
+   width:80%;
+   margin:auto;
+   column-gap: 20px;
+  /*  padding-bottom:15px; */
+   /*column-rule: 1px solid #999;*/
+ }
+ section#research1 article h2 {
+   /*column-span: all;*/
+   font-size: 2.5vw;
+   line-height: 2.5vw;
+ }
+
+ section#research1 article p {
+   margin-bottom: 20px;
+      border-bottom: #555 solid 1px;
+ }
+
+
+ section#research h2 {
+   font-size: 2.5vw;
+   line-height: 2.5vw;
+   border-bottom: #555 solid 1px;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+ }
+
+section#research {
+  display: flex;
+  padding: 20px
+}
+
+ section#research article {
+   width:80%;
+   /*border:1px solid #333;*/
+   margin:auto;
+   column-count: 2;
+   column-gap: 20px;
+   font-size: 1.4vw;
+   line-height: 2.0vw;
+
+   /*column-rule: 1px solid #999;*/
+ }
+ section#research article h1 {
+   /*column-span: all;*/
+   font-size: 3vw;
+   line-height: 2.8vw;
+ }
+
+ section#research article p {
+   margin-bottom: 20px;
+   font-family: 'PT Serif', serif;
+ }
+
+ h2#research{
+     font-family: 'PT Serif', serif;
+     font-size: 2.5vw;
+     font-weight: 7.0vw;
+     line-height: 3.5vw;
+     text-align: center;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     color:white;
+     background: #1C1F1D;
+ }
+
+  .publication{
+     font-size: 1.5vw;
+     font-weight: 2.0vw;
+     font-family: 'Song Myung', serif;
+ }
+
+
+div#gal{
+height:auto;
+padding-left:5%;
+padding-right:5%;
+justify-content: center;
+align-items: center;
+background: url(../images/bg7.jpg) no-repeat;
+ background-size: cover;
+}
+
+
+ .row {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0 4px;
+ }
+
+label{
+ width:50px;
+
+ }
+
+
+ /* Create four equal columns that sits next to each other */
+ .column {
+     flex: 25%;
+     max-width: 25%;
+     padding: 0 4px;
+ }
+
+ .column img {
+     margin-top: 8px;
+     vertical-align: middle;
+ 	width:100%;
+ }
+
+
+ section#life1 {
+ 	width:100%;
+ 	height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ 	z-index: 0;
+ }
+
+ /* === BG VIDEO === */
+ video#bgvid {
+ 	position: fixed;
+ 	right: 0;
+ 	top: 0;
+ 	min-width: 100%;
+ 	min-height: 100%;
+ 	width: auto;
+ 	height: auto;
+ 	z-index: -1;
+ 	background: url(../images/bg6.jpg) no-repeat;
+ 	background-size: cover;
+ }
+
+ hgroup {
+ 	text-align: center;
+ }
+
+ hgroup h1 {
+ 	font-family: 'Gloria Hallelujah', cursive;
+ 	font-size:4vmax;
+ 	line-height: 11vmax;
+ 	color: aliceblue;
+ 	font-weight: 700;
+ 	text-shadow: 0px 0px 100px rgba(0,0,0,.75);
+ }
+
+ section#row2 {
+   width:100%;
+   min-height: 70%;
+   height: auto;
+   background: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+ }
+
+
+
+ section#life1 {
+ 	width:100%;
+ 	height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ 	z-index: 0;
+ }
+
+
+ hgroup {
+ 	text-align: left;
+ }
+
+ hgroup h1 {
+ font-family: 'Gloria Hallelujah', cursive;
+ 	font-size:6vmax;
+ 	line-height: 10vmax;
+ /*	font-size:152px;*/
+ 	color: aliceblue;
+ 	font-weight: 700;
+ 	text-shadow: 0px 0px 100px rgba(0,0,0,.75);
+ }
+ hgroup h2 {
+ font-family: 'Gloria Hallelujah', cursive;
+ 	font-size:5vmax;
+ 	color: beige;
+ 	font-weight: normal;
+ 	text-shadow: 0px 0px 100px rgba(0,0,0,.75);
+ 	letter-spacing: .7vmin;
+ }
+
+
+ /* === FORM INFO HERE === */
+ section#life2 {
+   width:100%;
+   min-height:50%;
+   height: auto;
+   background: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   background: url(../images/bg7.jpg) no-repeat center center;
+   background-size: cover;
+
+ }
+
+section#sportsdes{
+padding-left:10%;
+margin:0;
+width:30%;
+height:30%;
+}
+
+section#sportsdes p{
+font-family: 'Courgette', cursive;
+font-size:2vw;
+}
+
+
+ section#cookpic {
+     background: url(../images/cook4.jpeg) no-repeat center center;
+     background-size: cover;
+ }
+ section#cookdes p{
+ font-family: 'Courgette', cursive;
+ font-size:2vw;
+ }
+
+
+@media (max-width: 800px) {
+    div{
+        height:90%;
+        /* height:auto; */
+    }
+
+    h1 {
+      font-size: 60px;
+    }
+
+   p#l1,p#l2{
+      font-size: 30px;
+   }
+
+   ul {
+     font-size: 20px;
+   }
+
+   h2#subtitle1, h2#subtitle2,h2#subtitle3,h2#subtitle4{
+     font-size: 30px;}
+
+  section#selfintroduction p{
+    font-size: 25px;
+    font-weight: 700px;
+    line-height: 30px;
+
+  }
+
+  section#selfphont {
+      /* background-size: cover; */
+    background-size: contain;
+    width:80%;
+    /*  height:100%; */
+  }
+  .school{
+    font-size: 25px;
+    font-weight: 7.0vw;
+    line-height: 25px;
+  }
+
+  .time {
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  .location{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+
+  }
+  .description{
+    font-size: 18px;
+  }
+  .universitypic{
+    background-size: contain;
+    width:80%;
+  }
+
+  .universityexp{
+  	/* width:100%; */
+    height: auto;
+  	position: relative;
+  	overflow: hidden;
+  	border-radius: 10px;
+/*       margin:10px; */
+  }
+
+  .educationlist {
+      padding:0 5% 0% 5%;
+  }
+
+
+  .donepic{
+      background-size: contain;
+      width:80%;
+    }
+  .done article{
+      padding-top:20px;
+     }
+
+     form {
+       width:80%;
+       min-width:360px;
+     }
+
+     input[type=text], input[type=email] {
+         width:90%;
+         padding: 4px 2px 1px;
+         font-size:18px;
+     }
+
+     input[type=submit], input[type=reset] {
+         font-size:20px;
+     }
+
+     textarea {
+         display: block;
+         width:90%;
+         height: 100px;
+         font-size:16px;
+     }
+
+     label {
+        font-family: 'Passion One', cursive;
+        font-size: 20px;
+     	font-weight: 700;
+     }
+
+    div#research{
+    height:auto;
+    }
+
+    section#research article {
+       margin:auto;
+       column-count: 1;
+       font-size:20px;
+       line-height:30px;
+     }
+
+    .publication{
+        font-size: 20px;
+        font-weight: 20px;
+        font-family: 'Song Myung', serif;
+    }
+    h2#research1 {
+    font-size: 30px;
+    font-weight: 30px;
+}
+
+.column {
+    flex: 50%;
+    max-width: 50%;
+}
+}
+
+
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    h1 {
+      font-size: 40px;
+    }
+
+   p#l1,p#l2{
+      font-size: 15px;
+   }
+
+   ul {
+     font-size: 10px;
+   }
+
+   h2#subtitle1, h2#subtitle2,h2#subtitle3,h2#subtitle4{
+     font-size: 15px;}
+
+  section#selfintroduction p{
+    font-size: 15px;
+    font-weight: 700px;
+    line-height: 15px;
+  }
+
+  .universityexp{
+      /* width:100%; */
+    height: 50%;}
+   .doneexp{
+        /* width:100%; */
+      height:50%;}
+      section#research article {
+         margin:auto;
+         column-count: 1;
+         font-size:20px;
+         line-height:30px;
+       }
+
+
+}
